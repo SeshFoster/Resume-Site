@@ -1,6 +1,13 @@
 .menu {display: block;}
 @media (max-width: 600px) { .menu {display: none;} }
 
+@media (min-width: 600px) and (max-width: 800px){ }
+
+@media (min-width: 600px) and (max-width: 800px){ }
+
+@media (min-width: 600px) and (max-width: 800px){ }
+
+@media (min-width: 600px) and (max-width: 800px){ }
 
 body {
     margin: 0;
@@ -10,7 +17,7 @@ body {
     background-image: url(https://i.pinimg.com/originals/49/03/a3/4903a3afbb583f08ba69cfd96e87cf2b.gif);
     background-position: center;
     background-size: cover;
-    overflow: hidden;
+
 }
 
 main {
