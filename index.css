@@ -1,3 +1,6 @@
+.menu {display: block;}
+@media (max-width: 600px) { .menu {display: none;} }
+
 body {
     margin: 0;
     font-family: 'Share Tech', sans-serif;
