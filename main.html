@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech|Share+Tech+Mono" rel="stylesheet" />
+    <title>Resume Sesh Foster</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="https://i.pinimg.com/enabled_hi/564x/72/1f/70/721f70db12caac7e0cf9f9e33b9887c9.jpg" type="image/svg+xml">
+</head>
+
+
+    <canvas id="bg"></canvas>
+    <main id="content">
+        <h1>
+            <div class="hex moved"></div><span>About the Dev Sesh Foster</span></h1>
+        <div class="subtext" id="main">
+            <p>My name is Sesh, I am a 16-year-old student from Moscow. Since I was 10 years old,
+                 I have been mired in programming and began to develop in this field,
+                  I started with ordinary servers for SAMP games,
+                   minecraft mods and now I am developing multifunctional web services for large companies.</p>
+            <p>
+                My main stack, which I have been working with for more than 3 years, is HTML, CSS, PHP. Now I want to switch to Flutter a little bit,
+                 I consider it a good cross-platform programming language.</p>
+        </div>
+        <h2>
+            <div class="hex"></div><span>Skills</span></h2>
+        <div class="subtext coll">
+            <p>I am well versed in object-oriented programming and computational mathematics in general. I am proficient in CSS3 and HTML5; I am making significant progress in JavaScript and jQuery. I also use Laravel for the PHP backend, in addition to the WordPress CMS.</p>
+        </div>
+        <h2>
+            <div class="hex"></div><span>Hobbies & Interests</span></h2>
+        <div class="subtext coll">
+            Small independent programming projects (semi-professionally). Music (unprofessional). Massively multiplayer online games (clumsily). Cooking (with greed). Sports (rocking chair).
+        </div>
+        <h2>
+            <div class="hex"></div><span>Currently Working On</span></h2>
+        <div class="subtext coll">
+            Developed a large online store for the customer from the Internet. I also develop my own mini projects every day to expand my portfolio.        </div>
+        
+        <h2>
+            <div class="hex"></div><span>Find Me</span></h2>
+        <div class="subtext coll">
+            <a>Twitter</a> | <a>Tumblr</a> | <a>Codepen</a> | <a>Behance</a>
+        </div>
+        
+        <h2>
+            <div class="hex"></div><span>Contact Me</span></h2>
+        <div class="subtext coll">
+            <ul>
+                <li>Phone: +7 900 222 49 62</li>
+                <li>E-mail: <a>vadimmakarov12vm@xmail.ru</a></li>
+                <li>Telegram: <a>seshdll</a></li>
+            </ul>
+        </div>
+    </main>
+    <!-- <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="one"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg>
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" class="wave" id="two"><path d="M-13.36,88.98 C168.85,182.73 276.72,-73.84 506.31,79.10 L500.00,150.00 L0.00,150.00 Z"></path></svg> -->
+    <div id="hex-holder">
+        <div class="hex" id="uno"></div>
+        <div class="hex" id="dos"></div>
+        <div class="hex" id="tres"></div>
+    </div>
+    <script type="text/JavaScript">
+        function draw() {
+    var canvas = $('canvas')[0];
+    if(canvas.getContext) {
+        var ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'rgb(200, 0, 0)';
+        ctx.fillRect(10, 10, 50, 50);
+        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+        ctx.fillRect(30, 30, 50, 50);
+    }
+}
+
+$(document).ready(function() {
+    // $(document).draw();
+    $('#content').animate({
+        opacity:1,
+        marginTop:'0',
+    }, 800);
+    $('h2').click(function() {
+        $(this).next('.subtext').slideToggle('fast');
+        $(this).children('.hex').toggleClass('moved');
+    })
+});
+    </script>
+</body>
+
+</html>
