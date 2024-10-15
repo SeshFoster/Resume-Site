@@ -7,39 +7,10 @@ body {
     font-family: 'Share Tech', sans-serif;
     font-size:16px;
     color: #505050;
-    background-image: url('https://i.pinimg.com/originals/49/03/a3/4903a3afbb583f08ba69cfd96e87cf2b.gif');
+    background-image: url(https://i.pinimg.com/originals/49/03/a3/4903a3afbb583f08ba69cfd96e87cf2b.gif);
     background-position: center;
     background-size: cover;
     overflow: hidden;
-}
-
-@keyframes animatedBackground {    
-    0% { background-position: 0 0; }    
-    100% { background-position: 100% 0; }    
-}    
-@-moz-keyframes animatedBackground {    
-    0% { background-position: 0 0; }    
-    100% { background-position: 100% 0; }    
-}    
-@-webkit-keyframes animatedBackground {    
-    0% { background-position: 0 0; }    
-    100% { background-position: 100% 0; }    
-}    
-@-ms-keyframes animatedBackground {    
-    0% { background-position: 0 0; }    
-    100% { background-position: 100% 0; }    
-}    
-@-o-keyframes animatedBackground {    
-    0% { background-position: 0 0; }    
-    100% { background-position: 100% 0; }    
-}    
-
-
-.section1       {     
-    background-image: url(mosaic.jpg);    
-    background-position: 0px 0px;    
-    background-repeat: repeat-x;    
-    animation: animatedBackground 40s linear infinite;    
 }
 
 main {
