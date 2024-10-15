@@ -7,7 +7,7 @@ body {
     font-family: 'Share Tech', sans-serif;
     font-size:16px;
     color: #505050;
-    background-image: url(back1.gif);
+    background-image: url('back1.gif');
     background-position: center;
     background-size: cover;
     overflow: hidden;
